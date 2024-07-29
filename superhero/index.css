@@ -1,0 +1,207 @@
+#body {width: 100%;
+    margin: 0px;
+    cursor: url('./index.icon.svg'), auto;
+}
+
+#container {margin: 0px; border: 0px;
+    color: white;
+    height: 100%;
+    width:100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#container>hr {
+    background-color: white;
+    width: 90%;
+}
+
+#containertwo>div>hr {
+    height: 3px;
+    background-color: black;
+    width: 90%;
+}
+
+#photo {
+    display: flex;align-items: center;
+}
+
+#photo>img {
+    width: 150px;
+    padding: 10px 0px 0px 20px;
+}
+
+#name {
+    width: 100%;
+    align-items: center;font-weight: 700px;
+    font-size: x-large;
+    padding-top: 30px;
+    padding-left:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#education {
+    display: flex;
+    flex-direction: row; margin: 30px;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2,
+#education {
+    margin: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#award {
+    display: flex;
+    justify-content: space-around; margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    background-color: gray;
+    border: none;
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+margin: 50px;}
+    #interests {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#gallery>div>img {
+    height: 300px;
+}
+
+#audio {
+    width: 100%;
+}
+
+#thememusic {
+    margin: 20px;
+    background-image: url(./index.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#experiences {
+    padding: 0px 0px 0px 30px;
+}
+
+.expara {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#references {
+    padding: 0px 0px 0px 30px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#skills {
+    padding: 0px 0px 0px 30px;
+}
+
+.skill {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+footer {
+    text-align: center;
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+#email{text-decoration: none; color: red; margin: 0px;}
+
+/* medium screen */
+@media only screen and (min-width: 421px) and (max-width: 720px) {
+    #body {
+        margin: 0px;
+        width: auto;
+        height: auto;
+    }
+    #name{ width: 100%;
+        align-items: center;
+        font-size: x-large;
+        padding-top: 20px;
+        padding-left: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+    #photo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #gallery {
+        display: flex;
+        gap: 5px;
+    }
+
+}
+
+/* small screen */
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+    #body {
+        margin: 0px;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center; 
+         width: auto;
+            height: auto;
+        }
+    
+    #name{ width: 100%;
+        align-items: center;
+        font-size: large;
+        padding-top: 50px;
+        padding-left: 0px;}
+    #photo {
+        flex-direction: column;
+        
+    }
+
+    #education {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #award {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #interests {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #gallery {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
