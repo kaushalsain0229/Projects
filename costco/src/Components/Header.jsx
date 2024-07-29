@@ -66,10 +66,10 @@ import {
           fontSize={"20px"}
           fontWeight={700}
           hover={{ textDecoration: "underline", cursor: "pointer" }}
-          bg={"teal.500"}
+          bg={"teal.300"}
           p={0.5}
         >
-         Spend and Sace Up to an Additional $600 on Qualifying Appliances 
+        It's Oasis for Shopping Goddies.
         </Text>
         <Flex
           gap={8}
@@ -214,6 +214,7 @@ import {
                 color={"white"}
                 w={40}
                 mr={2}
+                
               >
                 Shop
               </MenuButton>
@@ -414,6 +415,7 @@ import {
               hover={"none"}
               active={"none"}
               fontWeight={700}
+             
             >
               Shop
             </MenuButton>
@@ -501,9 +503,9 @@ import {
             </MenuList>
           </Menu>
   
-          <Popover>
+          <Popover >
             <PopoverTrigger>
-              <Text cursor={"pointer"} fontWeight={600} color={"white"}>
+              <Text cursor={"pointer"} fontWeight={600} color={"white"} >
                 Grocery
               </Text>
             </PopoverTrigger>
@@ -513,7 +515,7 @@ import {
                 Grocery & Households
               </PopoverHeader>
               <PopoverBody
-                color={"white"}
+                color={"black"}
                 cursor={"pointer"}
                 display={"grid"}
                 gridTemplateColumns={"repeat(2,1fr)"}
@@ -613,7 +615,7 @@ import {
                 <SimpleGrid
                   gridTemplateColumns={"repeat(2,1fr)"}
                   gap={10}
-                  color={"white"}
+                  color={"black"}
                 >
                   <SimpleGrid gap={2}>
                     <Link to={"/computer"}>
@@ -720,7 +722,7 @@ import {
                   gridTemplateColumns={"repeat(2,1fr)"}
                   gap={5}
                   mb={2}
-                  color={"white"}
+                  color={"black"}
                 >
                   <SimpleGrid gap={3}>
                     <Text>Beverages</Text>
@@ -761,7 +763,7 @@ import {
                   gridTemplateColumns={"repeat(2,1fr)"}
                   gap={5}
                   p={5}
-                  color={"white"}
+                  color={"black"}
                 >
                   <SimpleGrid gap={3}>
                     <Link to={"https://www.costco.com/optical.html"} gap={3}>
@@ -831,7 +833,7 @@ import {
                 <SimpleGrid
                   gridTemplateColumns={"repeat(4,1fr)"}
                   gap={5}
-                  color={"white"}
+                  color={"black"}
                   alignItems={"start"}
                 >
                   <SimpleGrid gap={3}>
@@ -911,9 +913,6 @@ import {
             </PopoverContent>
           </Popover>
   
-          <Text fontWeight={600} color={"white"} cursor={"pointer"}>
-            Photos
-          </Text>
   
           <Popover>
             <PopoverTrigger>
@@ -947,7 +946,7 @@ import {
                   gridTemplateColumns={"repeat(2,1fr)"}
                   gap={5}
                   mb={2}
-                  color={"white"}
+                  color={"black"}
                   alignItems={"start"}
                 >
                   <SimpleGrid gap={3}>
@@ -1001,7 +1000,7 @@ import {
             >
               <PopoverArrow />
               <PopoverBody cursor={"pointer"}>
-                <SimpleGrid gap={3} color={"white"}>
+                <SimpleGrid gap={3} color={"black"}>
                   <Text>Join Today</Text>
                   <Text>Renew Membership</Text>
                   <Text>Upgrade to Executive</Text>
@@ -1050,7 +1049,7 @@ import {
                   {" "}
                   <PiPackageThin />
                 </Box>{" "}
-                <Text fontWeight={600}>98101</Text>
+                <Text fontWeight={600}>123001</Text>
               </Flex>
             </SimpleGrid>
           </Flex>
